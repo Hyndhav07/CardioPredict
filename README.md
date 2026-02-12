@@ -47,20 +47,23 @@ This is a **multivariate dataset**, involving a variety of separate mathematical
 We began by analyzing the distribution of the target variable and understanding how features like gender and chest pain correlate with heart disease.
 
 #### Target Class Balance
-![Target Distribution](./eda_target_distribution.png)
-<img width="800" height="600" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/b01a3481-b4ce-46e2-abcb-aa607e39da1e" />
+
+<img width="800" height="600" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/d69c4f1c-cf02-46d2-9ee0-a03d7198a370" />
+
 
 *Figure 1: Distribution of the target variable. The dataset is relatively balanced between patients with and without heart disease.*
 
 #### Gender & Heart Disease
-![Sex vs Target](./eda_sex_vs_target.png)
-<img width="800" height="600" alt="Code_Generated_Image (2)" src="https://github.com/user-attachments/assets/bc75d092-9898-4adc-9fe6-9ce8bb08fb81" />
+
+<img width="800" height="600" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/94ba25b0-32ef-41ac-ada9-b89697195c27" />
+
 
 *Figure 2: Heart disease rates by gender. The data suggests a variation in risk between male (1) and female (0) patients.*
 
 #### Impact of Chest Pain Type
-![Chest Pain Analysis](./eda_cp_vs_target.png)
-<img width="1500" height="800" alt="Code_Generated_Image (3)" src="https://github.com/user-attachments/assets/3458cadd-6233-4cae-b25f-24e79eb1a66e" />
+
+<img width="800" height="600" alt="Code_Generated_Image (2)" src="https://github.com/user-attachments/assets/0c18914d-29be-46b4-9bba-83a4dde10d0c" />
+
 
 *Figure 3: Correlation between Chest Pain Type (CP) and Heart Disease. Asymptomatic and non-anginal pain types show higher correlation with positive diagnoses.*
 
@@ -97,8 +100,9 @@ The models were evaluated based on accuracy. The **Random Forest** and **Decisio
 | K-Nearest Neighbors | 72.13% |
 
 ### Model Performance Visualization
-![Model Comparison](./model_accuracy_comparison.png)
-<img width="800" height="600" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/e92c8872-0d13-4dcb-b3bb-07068c829706" />
+
+<img width="1500" height="800" alt="Code_Generated_Image (3)" src="https://github.com/user-attachments/assets/7f49e4ee-c8cb-46a3-a5ba-746b6f520932" />
+
 
 *Figure 4: Final accuracy comparison of all 7 Machine Learning models. Ensemble methods (Random Forest, Decision Tree) demonstrated superior predictive power.*
 
@@ -112,3 +116,4 @@ This project demonstrates that a subset of 14 clinical variables from the Clevel
 2.  **Install Dependencies**: `pip install numpy pandas matplotlib seaborn scikit-learn tensorflow`
 
 3.  **Run**: Execute the `Heart_disease_prediction.ipynb` notebook to reproduce these results.
+
