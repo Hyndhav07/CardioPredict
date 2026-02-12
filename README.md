@@ -1,4 +1,4 @@
-# Multivariate Cardiac Risk Analysis
+# CardioPredict - Multivariate Cardiac Risk Analysis
 
 ## Project Overview
 This project performs a comprehensive **multivariate numerical data analysis** on the world-renowned **Cleveland Heart Disease Database**. The primary goal is to predict the presence of heart disease in patients using Machine Learning and to extract diagnostic insights from clinical data.
@@ -116,4 +116,5 @@ This project demonstrates that a subset of 14 clinical variables from the Clevel
 2.  **Install Dependencies**: `pip install numpy pandas matplotlib seaborn scikit-learn tensorflow`
 
 3.  **Run**: Execute the `Heart_disease_prediction.ipynb` notebook to reproduce these results.
+
 
